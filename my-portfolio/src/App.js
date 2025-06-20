@@ -76,12 +76,18 @@ const App = () => {
   ];
 
 
-  const skills = [
-    "JavaScript", "TypeScript", "React", "Angular", "Redux", "RxJS",
-    "HTML5", "CSS3", "SCSS", "Bootstrap", "Material UI", "Tailwind CSS",
-    "Node.js", "Express.js", "REST APIs", "Git", "Jest", "Docker",
-    "PostgreSQL", "NGRX", "Angular CLI"
-  ];
+const skills = [
+  "JavaScript", "TypeScript", "React", "Angular", "Redux", "RxJS",
+  "HTML5", "CSS3", "SCSS", "Bootstrap", "Material UI", "Tailwind CSS",
+  "Node.js", "Express.js", "REST APIs", "Git", "GitHub", "GitLab", "Bitbucket",
+  "Jest", "React Testing Library", "Docker", "PostgreSQL",
+  "NGRX", "Angular CLI", "d3js", "Jasmine", "Karma", "PrimeNG",
+  "Figma to HTML/CSS", "Responsive Design", "SEO Best Practices", "ES6+", "Vite", "Webpack", 
+  "Babel", "Yarn", "npm", "VS Code", "Agile Methodology", "Scrum", "Jira",
+  "Confluence", "Project Coordination", "Client Communication", "Requirement Gathering",
+  "Team Collaboration", "Problem Solving"
+];
+
 
 
   const navigation = [
@@ -316,19 +322,25 @@ const App = () => {
                 My Journey
               </h3>
               <p className="text-white-50 mb-4 fs-5 lh-lg">
-                I'm a dedicated web developer with over 5 years of professional experience,
-                specializing in building scalable and responsive web applications. I have a strong
-                passion for transforming complex requirements into clean, maintainable, and user-friendly solutions.
+                I'm a dedicated front-end web developer with over 5 years of professional experience,
+                specializing in building scalable, responsive, and visually engaging web applications.
+                I have a strong passion for transforming complex design and functional requirements into clean,
+                maintainable, and user-friendly interfaces that offer a seamless user experience across all devices.
               </p>
               <p className="text-white-50 fs-5 lh-lg">
-                My core expertise lies in front-end development using modern frameworks like React and Angular.
-                I've led and contributed to numerous projects ranging from enterprise-grade dashboards to high-performance
-                e-commerce platforms. On the backend, I’m also experienced with Node.js, Express, and Python-based APIs.
-                I continuously strive to stay up-to-date with evolving web technologies and believe in writing efficient,
-                reusable code that delivers real-world value. Collaboration, problem-solving, and clean architecture
-                are at the heart of my development approach.
+                My core expertise lies in modern front-end frameworks like React and Angular, with proficiency
+                in crafting reusable components, implementing state management (using tools like Redux and Context API),
+                optimizing performance, and ensuring cross-browser compatibility. I also excel in HTML5, CSS3, Sass, Bootstrap,
+                Tailwind CSS, and JavaScript (ES6+), delivering pixel-perfect and responsive layouts that meet both design
+                and accessibility standards.
               </p>
-
+              <p className="text-white-50 fs-5 lh-lg">
+                In addition to development, I have valuable experience in project coordination, where I actively engage in
+                requirement gathering, client communications, task division, and team collaboration to ensure timely and
+                quality delivery of projects. My approach emphasizes problem-solving, attention to detail, and clean architecture,
+                resulting in products that not only meet technical specifications but also drive real business value. I am committed
+                to continuous learning and staying updated with the latest front-end technologies and best practices.
+              </p>
             </div>
             <div className="col-lg-6">
               <h3 className="h2 mb-4 d-flex align-items-center">
